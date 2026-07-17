@@ -1,0 +1,22 @@
+RAPPORT DE TESTS — OPTIMIZE V4.5
+
+Contrôles automatisés réussis :
+- syntaxe JavaScript valide ;
+- manifeste PWA valide ;
+- démarrage par défaut au niveau 1 avec 0 ticket ;
+- 20 thèmes visibles dans la collection ;
+- 18 titres visibles dans la collection ;
+- 18 animations visibles dans la collection ;
+- 8 récompenses saisonnières visibles ;
+- juillet reconnu comme saison d’été ;
+- thème Été Océan et animation Splash d’Été récupérables pendant l’été ;
+- chaque thème non classique possède son style CSS ;
+- chaque animation possède un effet de clic et une transition de page ;
+- aucun doublon d’identifiant dans le catalogue de base ;
+- aucun objet achetable à 0 ticket ;
+- aucun objet secret ou céleste achetable directement ;
+- aucune carte vendue dans la boutique ;
+- les anciens compagnons sans prix reçoivent un prix selon leur rareté ;
+- un ancien export Supabase complet reste importable ;
+- projets, journal, tickets, niveau et équipement sont préservés lors du test d’import ;
+- aucune donnée personnelle ni sauvegarde utilisateur incluse dans le dossier distribué.

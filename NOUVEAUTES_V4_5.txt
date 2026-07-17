@@ -1,0 +1,15 @@
+OPTIMIZE V4.5 — UNIVERS VISUEL ET BOUTIQUE CORRIGÉE
+
+- Le ZIP reste totalement vierge : aucune donnée personnelle n’est préchargée.
+- Import/export de sauvegarde conservé et compatible avec les anciens JSON Supabase.
+- Correction du bug des objets à 0 ticket : prix dérivé de la rareté quand un ancien catalogue n’a pas de prix.
+- Les objets secrets et célestes ne sont jamais achetables directement.
+- Les cartes ne sont pas vendues en boutique.
+- Collection réorganisée : thèmes, titres, animations et compagnons, tous visibles même verrouillés.
+- Filtres sur les cartes : état, rareté et recherche.
+- Nouveaux thèmes, titres et animations.
+- Thèmes saisonniers : printemps, été, automne et hiver.
+- En été, le thème Été Océan ajoute la mer et une plage qui monte progressivement pendant le défilement.
+- Les animations équipées modifient les clics et les transitions de page.
+- La préférence système « réduire les animations » est respectée.
+- Migration automatique du stockage V4.4 vers V4.5 sur la même adresse du site.

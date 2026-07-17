@@ -1,0 +1,12 @@
+CHECKLIST DE VALIDATION V4.5
+
+1. Ouvrir index.html : l’application doit démarrer vierge au niveau 1.
+2. Importer une sauvegarde V4.4 ou un ancien export Supabase depuis Profil > Sauvegardes.
+3. Ouvrir Progression > Collection : tous les thèmes, titres, animations et compagnons doivent être visibles.
+4. Équiper un thème puis changer de page : l’aspect visuel doit changer.
+5. Équiper une animation puis cliquer et changer de page : les effets doivent changer sans bloquer l’interface.
+6. Ouvrir la Boutique : aucun objet disponible ne doit afficher 0 ticket.
+7. Les objets secrets, célestes et saisonniers doivent être marqués non disponibles en boutique.
+8. Ouvrir Cartes : tester les filtres Toutes, Débloquées, Équipées, Verrouillées, rareté et recherche.
+9. Ouvrir Saisons : en juin, juillet ou août, Été Océan et Splash d’Été doivent être récupérables gratuitement.
+10. Exporter une nouvelle sauvegarde et la réimporter sur un autre navigateur.

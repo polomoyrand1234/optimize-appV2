@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f2eadf" />
+  <title>Optimize — Profil</title>
+  <link rel="icon" href="./favicon.png" />
+  <link rel="apple-touch-icon" href="./assets/icon-180.png" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="./css/styles.css?v=4.5" />
+</head>
+<body data-start-page="profileHub">
+  <noscript>Optimize nécessite JavaScript pour fonctionner.</noscript>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="confetti-layer" class="confetti-layer" aria-hidden="true"></div>
+
+  <div id="app-shell" class="app-shell">
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-head">
+        <img src="./assets/icon-96.png" alt="" class="sidebar-logo" />
+        <div>
+          <strong>Optimize</strong>
+          <span id="sidebar-user">Espace personnel local</span>
+          <span id="sidebar-xp" class="sidebar-xp">Niveau 1 · 0 XP</span>
+        </div>
+      </div>
+      <nav class="sidebar-nav" aria-label="Navigation principale">
+        <a class="nav-link" data-page="dashboard" href="./index.html"><span>Accueil</span></a>
+        <a class="nav-link hub-link" data-page="todayHub" href="./aujourdhui.html"><span>Aujourd’hui</span><small>Journée, agenda et priorités</small></a>
+        <a class="nav-link hub-link" data-page="organizationHub" href="./organisation.html"><span>Organisation</span><small>Projets, cours et ressources</small></a>
+        <a class="nav-link hub-link" data-page="progressionHub" href="./progression.html"><span>Progression</span><small>Compétences et univers de jeu</small></a>
+        <a class="nav-link hub-link" data-page="profileHub" href="./profil.html"><span>Profil</span><small>Profil, QG et paramètres</small></a>
+      </nav>
+      <div class="local-mode-badge">Stockage local · sauvegardable</div>
+    </aside>
+
+    <section class="main-panel">
+      <header class="topbar">
+        <button id="menu-toggle" class="icon-btn" type="button" aria-label="Ouvrir ou fermer le menu">☰</button>
+        <div>
+          <p class="eyebrow">Ton espace d’organisation</p>
+          <h2 id="page-title">Accueil</h2>
+        </div>
+        <div class="top-actions"><span id="today-label" class="pill"></span></div>
+      </header>
+      <div id="page-container" class="page-container"></div>
+    </section>
+  </div>
+  <div id="floating-nav" class="floating-nav" aria-label="Navigation rapide">
+    <button id="floating-menu-toggle" class="floating-action" type="button" aria-label="Ouvrir le menu">☰</button>
+    <button id="floating-back" class="floating-action" type="button" aria-label="Revenir à la page précédente">↩</button>
+    <button id="floating-home" class="floating-action" type="button" aria-label="Retourner à l’accueil">⌂</button>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/locales/fr.global.min.js"></script>
+  <script src="./js/app.js?v=4.5"></script>
+</body>
+</html>
